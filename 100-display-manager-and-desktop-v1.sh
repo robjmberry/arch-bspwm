@@ -3,6 +3,7 @@ set -e
 
 sudo pacman -Syyu --noconfirm
 #installing displaymanager or login manager
+sudo pacman -S --noconfirm --needed xorg-server
 sudo pacman -S --noconfirm --needed lightdm
 sudo pacman -S --noconfirm --needed lightdm-gtk-greeter
 
