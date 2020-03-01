@@ -12,3 +12,12 @@ sudo pacman -S bspwm sxhkd --noconfirm --needed
 #enabling displaymanager or login manager
 sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
+
+#Software
+sudo pacman -S --noconfirm --needed rxvt-unicode
+
+sudo mkdir -p /etc/skel/.config/bspwm
+sudo mkdir -p /etc/skel/.config/sxhkd
+cp /usr/share/doc/bspwm/examples/bspwmrc /etc/skel/.config/bspwm
+cp /usr/share/doc/bspwm/examples/sxhkdrc /etc/skel/.config/sxhkd
+
