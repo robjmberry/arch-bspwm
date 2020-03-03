@@ -14,7 +14,16 @@ sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
 #Software
-sudo pacman -S --noconfirm --needed rxvt-unicode chromium neovim yay
+sudo pacman -S --noconfirm --needed \ 
+    rxvt-unicode \
+    chromium \
+    neovim \
+    dmenu \
+    blender \
+    krita \
+    inkscape \
+    ranger
+
 
 sudo mkdir -p /etc/skel/.config/bspwm
 sudo mkdir -p /etc/skel/.config/sxhkd
