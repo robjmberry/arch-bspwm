@@ -14,7 +14,7 @@ sudo systemctl enable lightdm.service -f
 sudo systemctl set-default graphical.target
 
 #Software
-sudo pacman -S --noconfirm --needed \ 
+sudo pacman -S --noconfirm --needed \
     rxvt-unicode \
     chromium \
     neovim \
