@@ -30,5 +30,5 @@ sudo mkdir -p /etc/skel/.config/bspwm
 sudo mkdir -p /etc/skel/.config/sxhkd
 
 sudo cp /usr/share/doc/bspwm/examples/bspwmrc /etc/skel/.config/bspwm
-sudo cp ./config/sxhkdrc /etc/skel/.config/sxhkd
+sudo cp ./configs/sxhkdrc /etc/skel/.config/sxhkd
 
