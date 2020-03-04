@@ -22,7 +22,8 @@ sudo pacman -S --noconfirm --needed \
     blender \
     krita \
     inkscape \
-    ranger
+    ranger \
+    xorg-xrdb
 
 
 sudo mkdir -p /etc/skel/.config/bspwm
