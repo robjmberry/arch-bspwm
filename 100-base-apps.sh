@@ -15,6 +15,7 @@ sudo systemctl set-default graphical.target
 
 #Software
 sudo pacman -S --noconfirm --needed \
+    base-devel \
     rxvt-unicode \
     chromium \
     neovim \
