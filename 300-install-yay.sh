@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 cd /tmp
 
 git clone https://aur.archlinux.org/yay.git
