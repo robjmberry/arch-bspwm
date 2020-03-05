@@ -1,4 +1,4 @@
-#include .nord
+#include ".nord"
 
 URxvt*scrollBar:  false
 URxvt*fading:  30
