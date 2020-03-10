@@ -1,13 +1,14 @@
 #!/bin/bash
 set -e
 
-cd /tmp
 
 sudo pacman -Syyu --noconfirm
-pacman -S ca-certificates ca-certificates-cacert ca-certificates-mozilla ca-certificates-utils --noconfirm
+sudo pacman -S ca-certificates ca-certificates-cacert ca-certificates-mozilla ca-certificates-utils --noconfirm
 
+dir=$(pwd)
+cd /tmp
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
 
-cd ~/
+cd $dir
