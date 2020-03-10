@@ -3,7 +3,7 @@ set -e
 
 
 sudo pacman -Syyu --noconfirm
-sudo pacman -S ca-certificates ca-certificates-cacert ca-certificates-mozilla ca-certificates-utils --noconfirm
+sudo pacman -S ca-certificates ca-certificates-mozilla ca-certificates-utils --noconfirm
 
 dir=$(pwd)
 cd /tmp
